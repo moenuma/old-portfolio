@@ -1,0 +1,224 @@
+body {
+    background-color: #1F1F1F;
+    color: white;
+    font-family: 'Inter', sans-serif;
+}
+
+h2 {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+p {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.6;
+    letter-spacing: 0.6px;
+}
+
+.sidenav {
+    height: 100%;
+    width: 160px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    padding-top: 80px;
+  }
+
+.sidenav .menu a {
+    padding: 30px 30px 30px 40px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    display: block;
+}
+
+.sidenav .menu a:hover {
+    display: inline-block;
+    background: -webkit-linear-gradient(180deg, #A85AF6, #35B1F6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.sidenav .contactMe {
+    font-size: 16px;
+    font-weight: 600;
+    padding-left: 40px;
+    position: absolute;
+    bottom: 150px;
+}
+
+.sidenav .contactMe img {
+    width: 32px;
+    height: 32px;
+    display: block;
+    padding-top: 40px;
+    padding-left: 25px;
+}
+
+#home {
+    margin-left: 160px;
+    scroll-snap-align: start;
+    padding-top: 250px;
+    padding-left: 50px;
+    scroll-snap-type: y mandatory;
+    height: 100vh;
+}
+
+#home h1 {
+    font-size: 130px;
+    font-weight: bold;
+    margin: 0;
+    display: inline-block;
+    background: -webkit-linear-gradient(180deg, #A85AF6, #35B1F6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#home h2 {
+    font-size: 65px;
+    margin: 0;
+}
+
+.myStatus {
+    font-family: monospace;
+    font-size: 18px;
+    padding-top: 15px;
+}
+
+.myStatus p {
+    font-size: 18px;
+}
+
+.myStatus ul {
+    font-size: 18px;
+    list-style: none;
+}
+
+.myStatus li {
+    padding-top: 15px;
+    padding-bottom: 5px;
+}
+
+.myStatus .OK {
+    color: #71F442;
+}
+
+#home .content {
+    display:flex;
+    flex-direction: row;
+    justify-content: start;
+}
+
+#home .content img {
+    width: 360px;
+    height: 360px;
+    margin-top: 40px;
+    margin-left: 50px;
+}
+
+#aboutMe, #myHistory, #skillset {
+    margin-left: 16.66%;
+    margin-right: 16.66%;
+    padding-top: 100px;
+    scroll-snap-type: y;
+    height: 100vh;
+}
+
+#aboutMe .content {
+    display:flex;
+    flex-direction: row;
+    justify-content: start;
+}
+
+#aboutMe .description {
+    margin-left: 60px;
+    margin-right: 30px;
+    margin-top: 20px;
+}
+
+#aboutMe .interests {
+    margin-top: 30px;
+    font-family: monospace;
+    font-size: 18px;
+}
+
+.tag {
+    color: #C73F3F;
+    background-color: white;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    opacity: 0.8;
+    border-radius: 15px;
+    border: 1px solid #C73F3F;
+}
+
+#myHistory .content {
+    border-left: 3px solid red;
+}
+
+#myHistory .events {
+    list-style: none;
+    padding-top: 20px;
+}
+
+#myHistory .events li {
+    padding-bottom: 50px;
+    font-size: 18px;
+    font-weight: 550;
+}
+
+#myHistory .description li {
+    margin-left: 140px;
+    padding-bottom: 0;
+    padding-top: 10px;
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 1.6;
+    letter-spacing: 0.6px;
+}
+
+#myHistory .space {
+    padding-left: 50px;
+}
+
+#myHistory .highlight {
+    color: #71F442;
+}
+
+.badge {
+    background-color: #456DF9;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-weight: 500;
+}
+
+.badgeSet {
+    margin-left: 20px;
+    margin-top: 30px;
+    margin-bottom: 70px;
+}
+
+.languages .badge {
+    background-color: #A952EE;
+}
+
+.set2 {
+    padding-top: 30px;
+}
+
+.set2 .badge {
+    background-color: #6852EE;
+}
+
+/* #skillset {
+    margin-bottom: 350px;
+} */
