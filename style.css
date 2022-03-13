@@ -16,6 +16,11 @@ p {
     letter-spacing: 0.6px;
 }
 
+section {
+    padding: 100px 0px;
+    margin: 0% 16.66%;
+}
+
 .sidenav {
     height: 100%;
     width: 160px;
@@ -59,12 +64,9 @@ p {
 }
 
 #home {
-    margin-left: 160px;
+    margin: 0px 200px;
     scroll-snap-align: start;
     padding-top: 250px;
-    padding-left: 50px;
-    scroll-snap-type: y mandatory;
-    height: 100vh;
 }
 
 #home h1 {
@@ -117,14 +119,6 @@ p {
     height: 360px;
     margin-top: 40px;
     margin-left: 50px;
-}
-
-#aboutMe, #myHistory, #skillset {
-    margin-left: 16.66%;
-    margin-right: 16.66%;
-    padding-top: 100px;
-    scroll-snap-type: y;
-    height: 100vh;
 }
 
 #aboutMe .content {
@@ -219,6 +213,7 @@ p {
     background-color: #6852EE;
 }
 
-/* #skillset {
-    margin-bottom: 350px;
-} */
+footer {
+    text-align: center;
+    padding: 15px;
+}
